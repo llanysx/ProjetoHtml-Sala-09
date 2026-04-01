@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de texto02</title>
+    <style>
+         /* estilo geral */
+         body{
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /*cor de fundo suave*/
+            color: #004f4f;
+            line-height: 1.6;
+            margin:0;
+            padding: 20px;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+         }
+         /*estilo h1*/
+        h1{
+            color:#00ced1; /*Ciano medio*/
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        /*quebra de linha e quebra temática*/
+        p{
+            margin:10px 0;
+        }
+        hr{
+            border: 1px dotted #00ced1;
+            margin: 20px 0;
+        }
+        /* estilo para a marcação semantica */
+        strong{
+            font-weight: bold;
+            color: #008b8b;
+
+
+        }
+        em{
+            font-style:italic;
+            color:#20b2aa;
+        }
+        blockquote{
+            background-color: #e0ffff;
+            border-left: 5px solid #00ced1;
+            margin: 20px;
+            padding: 10px 20px;
+            font-style: italic;
+        }
+        q{
+            color: #00ced1;
+            font-style: italic;
+        }
+        /* outras tags */
+        abbr{
+            background-color: #e0ffff;
+            padding:2px 5px;
+            border-radius:3x;
+        }
+        cite{
+            font-style: normal;
+            color: #20b2aa;
+        }
+        dfn{
+            font-style: italic;
+            color: #008b8b;
+        }
+
+
+        address{
+            font-style: normal;
+            font-size: 1rem;
+            color: #007a99;
+            background-color: #e0ffff ;
+        }
+
+
+/* para o teto cortado e inserido */
+        del{
+            color: #D2701e;
+            text-decoration: underline;
+        }
+        ins{
+            color: #32CD32;
+            text-decoration: underline;
+        }
+        s{
+            color: #D2701E;
+            text-decoration: line-through;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Texto(Parte2)</h1>
+    <!-- quebra de linha e quebra tematica -->
+     <p>isso está<br> nova linha.</p>
+     <p>Tema interessante 1</p>
+     <hr>
+     <p>Tema interessante 2</p>
+
+
+
+
+     <!-- Marcação -->
+      <p><strong>Cuidado!</strong>Alta Voltagem!<em>Somente pessoal autorizado.</em></p>
+      <blockquote cite="https://en.wikipedia.org/Wikipedia"><p>Citações longas...</p></blockquote>
+      <p>fulano disse que<q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, repellat. ipsum dolor sit amet.</q></p>
+
+
+
+
+      <!-- outras tags -->
+       <p>
+        <abbr title="Professor">Prof </abbr> Fulano em seu livro
+        <cite> Livro bem legal </cite>definiu mais precisamente...
+       </p>
+       <p><dfn>Bruraco Negro</dfn> é região do espaço que...</p>
+       <address>
+        <p>Rua ABC, n<sup>0</sup>123...</p>
+       </address>
+       <p>O oscar vai para <del>La La Land </del><ins>Moonlight</ins></p>
+       <p>Computador de <s>R$2.249,90</s>por 1.799,99</p>
+
+
+
+
+</body>
+</html>
